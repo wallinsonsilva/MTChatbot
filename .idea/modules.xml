@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/ReplaceWordAndAnalize.iml" filepath="$PROJECT_DIR$/.idea/ReplaceWordAndAnalize.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/MTChatbot.iml" filepath="$PROJECT_DIR$/.idea/MTChatbot.iml" />
     </modules>
   </component>
 </project>

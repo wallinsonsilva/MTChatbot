@@ -20,7 +20,6 @@ class Sinonimo:
         sinonimos_token = {}
 
         for token in sentence:
-            print(token,token.pos_)
             if token.pos_ in self.__lista_elementos_aceitos:
                 # We get those synsets within the desired domains
                 conjunto_sinonimos = token._.wordnet.wordnet_synsets_for_domain(self.__domains)
@@ -33,9 +32,13 @@ class Sinonimo:
 
         return sinonimos_token
 
+
+    #Caso seja passado deep = 0, será feito apenas uma substituição por sentença,
+    #caso contrário, será combinado todas as versões possíveis.
     def versoes_sentenca(self,sentenca,deep=0):
         logging.warning('func: versoes_sentenca')
 
+        sentenca = self.__tradutor.traduzir_sentenca_simples(sentenca,'en')
         self.__dic_sinonimos = self.sinonimos_elementos(sentenca)
         sentence = self.__nlp(sentenca)
         versoes = []
@@ -51,7 +54,6 @@ class Sinonimo:
             logging.warning('versoes_sentenca[ sentenca: {0}, deep: {1}]'.format(sentenca,deep))
             versoes = self.__substituir_sininonimos_profundidade(sentence, self.__dic_sinonimos)
             versoes = self.__remover_underline_sentencas(list(set(versoes)))
-            print(versoes)
             logging.warning('versoes_sentenca[ sentenca: {0}, deep: {1}, len(versoes): {2}]'.format(sentenca, deep, len(versoes)))
             return self.__tradutor.traduzir_sentencas(versoes)
 
@@ -93,7 +95,6 @@ class Sinonimo:
                 versoes = versoes + self.__substituir_sininonimos_profundidade(sentence, dicionario)
                 dicionario[sin] = conjunto_sinonimos
         else:
-            print('Else',dicionario.keys())
             return self.__substituir_sinonimos_sentenca(sentenca, list(dicionario.keys())[0])
         return versoes
 

@@ -19,11 +19,11 @@ class TrocarCaracteres:
         tokens = [token.text for token in doc]
         return list(tokens)
 
-    def trocar_caracteres_vizinhos_sentenca(self,sentenca):
+    def trocar_caracteres_vizinhos_teclado(self, sentenca):
         versoes = []
         sentenca = self.__prepocessamento_tokens(sentenca)
         for i in range(0, len(sentenca)):
-            substituicoes = self.__trocar_caracteres_vizinhos_palavra(sentenca[i])
+            substituicoes = self.__trocar_caracteres_vizinhos_palavra_teclado(sentenca[i])
             for s in substituicoes:
                 temp = sentenca.copy()
                 temp[i] = s
@@ -45,20 +45,20 @@ class TrocarCaracteres:
 
         return versoes
 
-    def deletar_caracteres_vizinhos_sentenca(self,sentenca):
-        versoes = []
-        sentenca = self.__prepocessamento_tokens(sentenca)
-        for i in range(0, len(sentenca)):
-            substituicoes = self.__deletar_caractere_palavra(sentenca[i])
-            for s in substituicoes:
-                temp = sentenca.copy()
-                temp[i] = s
-                temp = ' '.join(temp).replace(' ,', ',').replace(' .', '.').replace(' :', ':').replace(' ?', '?').replace(' !', '!')
-                versoes.append(temp)
-
-        return versoes
-
-    def deletar_caracteres_vizinhos_sentenca(self,sentenca):
+    # def deletar_caracteres_vizinhos_sentenca(self,sentenca):
+    #     versoes = []
+    #     sentenca = self.__prepocessamento_tokens(sentenca)
+    #     for i in range(0, len(sentenca)):
+    #         substituicoes = self.__deletar_caractere_palavra(sentenca[i])
+    #         for s in substituicoes:
+    #             temp = sentenca.copy()
+    #             temp[i] = s
+    #             temp = ' '.join(temp).replace(' ,', ',').replace(' .', '.').replace(' :', ':').replace(' ?', '?').replace(' !', '!')
+    #             versoes.append(temp)
+    #
+    #     return versoes
+    #
+    def trocar_caracteres_vizinhos_palavra(self,sentenca):
         versoes = []
         sentenca = self.__prepocessamento_tokens(sentenca)
         for i in range(0, len(sentenca)):
@@ -73,7 +73,7 @@ class TrocarCaracteres:
 
     # Troca os caracteres das palvras por caracteres vizinhos no teclado.
     # A substituição só é feita em palavras com 3 ou mais caracteres
-    def __trocar_caracteres_vizinhos_palavra(self,palavra):
+    def __trocar_caracteres_vizinhos_palavra_teclado(self, palavra):
         versoes = []
         if len(palavra) > 2:
             palavra = unidecode(palavra)

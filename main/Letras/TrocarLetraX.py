@@ -117,10 +117,8 @@ class TrocarLetraX:
     # Verificar se existe X e troca por CH nas palavras.
     # A comparação ignora o primeiro e o último caractere
     def trocar_x(self, sentenca):
-
         dicionario_stem = self.__retornar_dicionario_lematizado(self.dicionario_x)
         sentenca = self.__prepocessamento_tokens(sentenca)
-
         versoes_sentenca = []
         for s in sentenca:
             if 'x' in s and not s.startswith('x') and not s.endswith('x'):
@@ -143,14 +141,15 @@ class TrocarLetraX:
                         if palavra_stem in dicionario_stem.get('x_ss'):
                             versoes_sentenca.append(self.__substituir_letra(sentenca, s, 'x', 'ss'))
                             continue
+                    # Verifica se o X tem o som de CH.
                     if palavra_stem in dicionario_stem.get('x_ch'):
                         versoes_sentenca.append(self.__substituir_letra(sentenca, s, 'x', 'ch'))
                         continue
-                    # Verifica se o X tem o som de S.
-                    # Regra: E + X + Consoante
+                    # Verifica se o X tem o som de CS.
                     if palavra_stem in dicionario_stem.get('x_cs'):
                         versoes_sentenca.append(self.__substituir_letra(sentenca, s, 'x', 'cs'))
                         continue
+                    # Verifica se o X não tem som.
                     if palavra_stem in dicionario_stem.get('x_x'):
                         versoes_sentenca.append(self.__substituir_letra(sentenca, s, 'x', ''))
                         continue

@@ -10,7 +10,7 @@ class ThesaurosRest:
         self.__elementos_sintaticos = ['verb', 'adv']
         self.__limiar_substituicao = 50
         self.__tipos = ['synonyms', 'antonyms']
-        self.__tradutor = Tradutor()
+        self.__tradutor = Tradutor(1,1)
 
     def versoes_sinonimo(self, sentenca):
         return self.__versoes(sentenca,0)

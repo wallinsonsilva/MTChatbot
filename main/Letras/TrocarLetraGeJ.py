@@ -2,13 +2,13 @@ import spacy
 class TrocarLetraGeJ:
 
     def __init__(self):
-        self.vogais = ['a', 'á', 'à', 'â', 'ã', 'e', 'é', 'ê', 'i', 'í', 'î', 'o', 'ó', 'ô', 'õ', 'u', 'ú', 'û']
-        self.nlp = spacy.load('pt_core_news_md')
+        self.__vogais = ['a', 'á', 'à', 'â', 'ã', 'e', 'é', 'ê', 'i', 'í', 'î', 'o', 'ó', 'ô', 'õ', 'u', 'ú', 'û']
+        self.__nlp = spacy.load('pt_core_news_md')
 
 
     def __prepocessamento_tokens(self,sentenca):
         aux = sentenca.lower();
-        doc = self.nlp(aux)
+        doc = self.__nlp(aux)
         tokens = [token.text for token in doc]
         return list(tokens)
 
