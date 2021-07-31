@@ -1,10 +1,10 @@
-from main.SubstituicoesPalavras.Tradutor import Tradutor
-from main.SubstituicoesPalavras.ThesaurosRest import ThesaurosRest
+from main.base_relacoes.SubstituicoesPalavras.Tradutor import Tradutor
+from main.base_relacoes.SubstituicoesPalavras.ThesaurosRest import ThesaurosRest
 
-class AntonimosENaoRelacionados:
+class RM_36_AntonimosENaoRelacionados:
 
-    def __init__(self):
-        self.__tradutor = Tradutor(3)
+    def __init__(self,quantidade_treads:3,atraso_tradutor=1):
+        self.__tradutor = Tradutor(quantidade_treads,atraso_tradutor)
         self.__thesauros = ThesaurosRest()
 
     # RM3.6

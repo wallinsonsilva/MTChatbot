@@ -1,7 +1,7 @@
 import spacy
 import requests
 import json
-from main.SubstituicoesPalavras.Tradutor import Tradutor
+from main.base_relacoes.SubstituicoesPalavras.Tradutor import Tradutor
 
 class ThesaurosRest:
 

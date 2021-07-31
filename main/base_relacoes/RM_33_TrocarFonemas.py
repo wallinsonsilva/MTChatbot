@@ -1,9 +1,9 @@
-from main.Letras.TrocarLetraX import TrocarLetraX
-from main.Letras.TrocarLetraGeJ import TrocarLetraGeJ
-from main.Letras.TrocarLetraLeU import TrocarLetraLeU
-from main.Letras.TrocarLetraSCCedilhaSS import TrocarLetraSCCedilhaSS
+from main.base_relacoes.Letras.TrocarLetraX import TrocarLetraX
+from main.base_relacoes.Letras.TrocarLetraGeJ import TrocarLetraGeJ
+from main.base_relacoes.Letras.TrocarLetraLeU import TrocarLetraLeU
+from main.base_relacoes.Letras.TrocarLetraSCCedilhaSS import TrocarLetraSCCedilhaSS
 
-class TrocaFonemas:
+class RM_33_TrocaFonemas:
 
     def __init__(self):
         self.trocar_xch = TrocarLetraX()

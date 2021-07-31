@@ -1,6 +1,6 @@
 import spacy
 from spacy_wordnet.wordnet_annotator import WordnetAnnotator
-from main.SubstituicoesPalavras.Tradutor import Tradutor
+from main.base_relacoes.SubstituicoesPalavras.Tradutor import Tradutor
 import logging
 logging.basicConfig(format='%(asctime)s %(message)s', datefmt='%d/%m/%Y %I:%M:%S %p',level=logging.INFO)
 

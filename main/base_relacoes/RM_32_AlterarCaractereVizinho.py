@@ -1,7 +1,7 @@
-from main.Letras.TrocarCaractere import TrocarCaracteres
+from main.base_relacoes.Letras.TrocarCaractere import TrocarCaracteres
 
 # RM3.2
-class TrocaLetras:
+class RM_32_TrocaLetras:
 
     def __init__(self):
         self.tc = TrocarCaracteres()

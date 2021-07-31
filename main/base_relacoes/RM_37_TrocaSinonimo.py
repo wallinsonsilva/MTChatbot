@@ -1,11 +1,11 @@
-from main.SubstituicoesPalavras.Tradutor import Tradutor
-from main.SubstituicoesPalavras.ThesaurosRest import ThesaurosRest
-from main.SubstituicoesPalavras.SpacyWordnetSinonimos import Sinonimo
+from main.base_relacoes.SubstituicoesPalavras.Tradutor import Tradutor
+from main.base_relacoes.SubstituicoesPalavras.ThesaurosRest import ThesaurosRest
+from main.base_relacoes.SubstituicoesPalavras.SpacyWordnetSinonimos import Sinonimo
 
-class Sinonimos:
+class RM37_Sinonimos:
 
-    def __init__(self):
-        self.__tradutor = Tradutor(3)
+    def __init__(self,quantidade_treads:3,atraso_tradutor=1):
+        self.__tradutor = Tradutor(quantidade_treads,atraso_tradutor)
         self.__thesauros = ThesaurosRest()
         self.__sinonimos = Sinonimo()
 

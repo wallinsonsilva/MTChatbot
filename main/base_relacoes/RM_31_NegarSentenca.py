@@ -1,7 +1,7 @@
 import spacy
 
 
-class NegarSentenca:
+class RM_31_NegarSentenca:
 
     def __init__(self):
         self.__nlp = spacy.load('pt_core_news_lg')

@@ -2,35 +2,60 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49511c0e-6117-4fc6-a87b-e06051e153e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/SubstituicoesPalavras/RemoverElementosNaoChave.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/base_relacoes/RM_31_NegarSentenca.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/base_relacoes/RM_32_AlterarCaractereVizinho.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/base_relacoes/RM_33_TrocarFonemas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/base_relacoes/RM_34_OmitirPalavrasNaoChave.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/base_relacoes/RM_35_VersoesTraducao.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/base_relacoes/RM_36_TrocaAntonimoENaoRelacionados.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MTChatbot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MTChatbot.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/API.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/Cliclaques.txt" beforeDir="false" afterPath="$PROJECT_DIR$/main/Testes/Cliclaques.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/Cliclaques_sent.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/Letras/TrocarCaractere.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/Letras/TrocarCaractere.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/Letras/TrocarLetraGeJ.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/Letras/TrocarLetraGeJ.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/Letras/TrocarLetraX.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/Letras/TrocarLetraX.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/NLTKWordnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/Testes/NLTKWordnet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/Sent2vec.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/Testes/Sent2vec.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/SentGenerator.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/Testes/SentGenerator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/SinonimosWordnet.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/SubstanticosSenteca.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/Testes/SubstantivosSentenca.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/SubstituicoesPalavras/SinonimoAntonimo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/SubstituicoesPalavras/SpacyWordnetSinonimos.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/SubstituicoesPalavras/SpacyWordnetSinonimos.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/SubstituicoesPalavras/ThesaurosRest.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/SubstituicoesPalavras/ThesaurosRest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/SubstituicoesPalavras/Tradutor.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/SubstituicoesPalavras/Tradutor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/teste.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/teste.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Teste.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/AplicacaoTeste/ServicoAplicacaoADM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/AplicacaoTeste/ServicoAplicacaoPublica.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/config/Banco.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/config/constantes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/config/entradas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/dao/caso_teste_acompanhamento_dao.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/dao/caso_teste_origem_dao.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/dao/hist_confianca_acompanhamento_dao.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/dao/hist_confianca_origem_dao.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/dao/quantidade_sentenca_gerada_dao.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/dao/relacoes_dao.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/dao/reposta_caso_teste_origem_dao.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/dao/reposta_resultado_teste_dao.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/dao/resultado_teste_dao.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/model/caso_teste_acompanhamento.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/model/caso_teste_origem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/model/hist_conf_acom_detalhado.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/model/hist_confianca_acompanhamento.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/model/hist_confianca_origem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/model/mensagem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/model/mensagem_parse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/model/quantidade_sentenca_gerada.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/model/relacao.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/model/reposta_caso_teste_origem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/model/reposta_resultado_teste.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/model/resultado_completo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/model/resultado_teste.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/model/sentenca_aplicacao.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/testes/teste_metamorfico_rm_31.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/Letras/TrocarCaractere.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/base_relacoes/Letras/TrocarCaractere.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/Letras/TrocarLetraGeJ.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/base_relacoes/Letras/TrocarLetraGeJ.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/Letras/TrocarLetraLeU.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/base_relacoes/Letras/TrocarLetraLeU.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/Letras/TrocarLetraSCCedilhaSS.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/base_relacoes/Letras/TrocarLetraSCCedilhaSS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/Letras/TrocarLetraX.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/base_relacoes/Letras/TrocarLetraX.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/SubstituicoesPalavras/RemoverElementosNaoChave.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/base_relacoes/SubstituicoesPalavras/RemoverElementosNaoChave.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/SubstituicoesPalavras/SpacyWordnetSinonimos.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/base_relacoes/SubstituicoesPalavras/SpacyWordnetSinonimos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/SubstituicoesPalavras/ThesaurosRest.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/base_relacoes/SubstituicoesPalavras/ThesaurosRest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/SubstituicoesPalavras/Tradutor.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/base_relacoes/SubstituicoesPalavras/Tradutor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/Testes/Cliclaques.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/Testes/NLTKWordnet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/Testes/Sent2vec.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/Testes/SentGenerator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/Testes/SubstantivosSentenca.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/base_relacoes/RM_31_NegarSentenca.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/base_relacoes/RM_31_NegarSentenca.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/base_relacoes/RM_32_AlterarCaractereVizinho.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/base_relacoes/RM_32_AlterarCaractereVizinho.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/base_relacoes/RM_33_TrocarFonemas.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/base_relacoes/RM_33_TrocarFonemas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/base_relacoes/RM_34_OmitirPalavrasNaoChave.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/base_relacoes/RM_34_OmitirPalavrasNaoChave.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/base_relacoes/RM_35_VersoesTraducao.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/base_relacoes/RM_35_VersoesTraducao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/base_relacoes/RM_36_TrocaAntonimoENaoRelacionados.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/base_relacoes/RM_36_TrocaAntonimoENaoRelacionados.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/base_relacoes/RM_37_TrocaSinonimo.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/base_relacoes/RM_37_TrocaSinonimo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/teste.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,64 +84,26 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/main/Letras" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/main/model" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\D\Mestrado\MTChatbot\main\model" />
+      <recent name="C:\D\Mestrado\MTChatbot\main" />
+      <recent name="C:\D\Mestrado\MTChatbot\main\dao" />
+      <recent name="C:\D\Mestrado\MTChatbot\main\Letras" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\D\Mestrado\MTChatbot\main\SubstituicoesPalavras" />
+      <recent name="C:\D\Mestrado\MTChatbot\main\AplicacaoTeste" />
       <recent name="C:\D\Mestrado\MTChatbot\main\base_relacoes" />
+      <recent name="C:\D\Mestrado\MTChatbot\main\config" />
+      <recent name="C:\D\Mestrado\MTChatbot\main\SubstituicoesPalavras" />
       <recent name="C:\D\Mestrado\MTChatbot\main\Testes" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\D\Mestrado\MTChatbot\main\Letras" />
-      <recent name="C:\D\Mestrado\MTChatbot\main" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.teste">
-    <configuration name="AlternativaTradutor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MTChatbot" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main/Testes" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/Testes/AlternativaTradutor.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="RemoverElementosNaoChave" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MTChatbot" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main/SubstituicoesPalavras" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\D\Mestrado\MTChatbot\main\SubstituicoesPalavras\RemoverElementosNaoChave.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="SinonimosWordnet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.ServicoAplicacaoADM">
+    <configuration name="ServicoAplicacaoADM" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MTChatbot" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -128,7 +115,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/SinonimosWordnet.py" />
+      <option name="SCRIPT_NAME" value="C:\D\Mestrado\MTChatbot\main\AplicacaoTeste\ServicoAplicacaoADM.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -137,28 +124,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SpacyWordnetSinonimos" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MTChatbot" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main/SubstituicoesPalavras" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/SubstituicoesPalavras/SpacyWordnetSinonimos.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="teste" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ServicoAplicacaoPublica" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MTChatbot" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -170,22 +136,80 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/teste.py" />
+      <option name="SCRIPT_NAME" value="C:\D\Mestrado\MTChatbot\main\AplicacaoTeste\ServicoAplicacaoPublica.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ServicoAplicacaoPublica" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MTChatbot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\D\Mestrado\MTChatbot\main\AplicacaoTeste\ServicoAplicacaoPublica.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Teste" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MTChatbot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Teste.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for teste_metamorfico_rm_31.TesteMetamorficoRM31" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="MTChatbot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main/testes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;teste_metamorfico_rm_31.TesteMetamorficoRM31&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.teste" />
-        <item itemvalue="Python.SinonimosWordnet" />
-        <item itemvalue="Python.AlternativaTradutor" />
-        <item itemvalue="Python.RemoverElementosNaoChave" />
-        <item itemvalue="Python.SpacyWordnetSinonimos" />
+        <item itemvalue="Python.ServicoAplicacaoADM" />
+        <item itemvalue="Python.ServicoAplicacaoPublica (1)" />
+        <item itemvalue="Python.ServicoAplicacaoPublica" />
+        <item itemvalue="Python.Teste" />
+        <item itemvalue="Python tests.pytest for teste_metamorfico_rm_31.TesteMetamorficoRM31" />
       </list>
     </recent_temporary>
   </component>
@@ -200,44 +224,72 @@
       <option name="presentableId" value="Default" />
       <updated>1614108125115</updated>
     </task>
+    <task id="LOCAL-00001" summary="Definição de RM">
+      <created>1626830772639</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1626830772639</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Definição de RM" />
+    <option name="LAST_COMMIT_MESSAGE" value="Definição de RM" />
   </component>
   <component name="WindowStateProjectService">
     <state x="413" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1624545460997">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1624545460997" />
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1626828058515">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1626830760641">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1626828058515" />
-    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1626828058514">
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1626830760641" />
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1627765856193">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1626828058514" />
-    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1626828058514">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1627765856193" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1627765856183">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1626828058514" />
-    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1626828058515">
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1627765856183" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1627765856183">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1626828058515" />
-    <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1626745385105">
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1627765856183" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1627765856193">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1626745385105" />
-    <state width="1345" height="223" key="GridCell.Tab.1.center" timestamp="1626745385105">
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1627765856193" />
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1627758016756">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1626745385105" />
-    <state width="1345" height="223" key="GridCell.Tab.1.left" timestamp="1626745385105">
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1627758016756" />
+    <state width="1345" height="223" key="GridCell.Tab.1.center" timestamp="1627758016756">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1626745385105" />
-    <state width="1345" height="223" key="GridCell.Tab.1.right" timestamp="1626745385105">
+    <state width="1345" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1627758016756" />
+    <state width="1345" height="223" key="GridCell.Tab.1.left" timestamp="1627758016756">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1626745385105" />
+    <state width="1345" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1627758016756" />
+    <state width="1345" height="223" key="GridCell.Tab.1.right" timestamp="1627758016756">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1627758016756" />
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1626830814396">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1626830814396" />
+    <state x="450" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1627155489129">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="450" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1627155489129" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1627758365888">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1627758365888" />
   </component>
 </project>
